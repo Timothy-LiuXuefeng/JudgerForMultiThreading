@@ -16,24 +16,24 @@ namespace JudgerForDiningPhilosophers
 
 		static void Main(string[] args)
 		{
+			var idxTransformers = new IdxTransformer[2]
+			{
+			new ClockwiseTransformer(),
+			new AntiClockwiseTransformer()
+			};
+
+			var testers = new Tester[2]
+			{
+			new Tester(idxTransformers[0]),
+			new Tester(idxTransformers[1])
+			};
+
+			var runner = new Runner();
+
+			uint maxTime = 35;
+
 			try
 			{
-				var idxTransformers = new IdxTransformer[2]
-				{
-				new ClockwiseTransformer(),
-				new AntiClockwiseTransformer()
-				};
-
-				var testers = new Tester[2]
-				{
-				new Tester(idxTransformers[0]),
-				new Tester(idxTransformers[1])
-				};
-
-				var runner = new Runner();
-
-				uint maxTime = 35;
-
 				for (uint i = 0; i < maxTime; ++i)
 				{
 					uint n = i + 1;
@@ -66,10 +66,6 @@ namespace JudgerForDiningPhilosophers
 			catch (TestFailedException e)
 			{
 				Console.WriteLine(e.Message);
-			}
-			catch (Exception e)
-			{
-				Console.WriteLine(e);
 			}
 		}
 	}
