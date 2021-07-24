@@ -18,14 +18,14 @@ namespace JudgerForDiningPhilosophers
 		{
 			var idxTransformers = new IdxTransformer[2]
 			{
-			new ClockwiseTransformer(),
-			new AntiClockwiseTransformer()
+				new ClockwiseTransformer(),
+				new AntiClockwiseTransformer()
 			};
 
 			var testers = new Tester[2]
 			{
-			new Tester(idxTransformers[0]),
-			new Tester(idxTransformers[1])
+				new Tester(idxTransformers[0]),
+				new Tester(idxTransformers[1])
 			};
 
 			var runner = new Runner();
