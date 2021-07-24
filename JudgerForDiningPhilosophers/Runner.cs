@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections.Concurrent;
-using System.Linq;
-using System.Text;
+using System.Collections.Generic;
 using System.Threading;
-using System.Threading.Tasks;
+
+using Answer = DiningPhilosophers.Answer1;
 
 namespace JudgerForDiningPhilosophers
 {
@@ -16,12 +15,12 @@ namespace JudgerForDiningPhilosophers
 
 	class Runner
 	{
-		private DiningPhilosophers.Answer1.DiningPhilosophers ans;
+		private Answer::DiningPhilosophers ans;
 		PhilosopherDriver[] drivers = new PhilosopherDriver[5];
 
 		public Runner()
 		{
-			ans = new DiningPhilosophers.Answer1.DiningPhilosophers();
+			ans = new Answer::DiningPhilosophers();
 			drivers = new PhilosopherDriver[5];
 			for (int i = 0; i < 5; ++i)
 			{
