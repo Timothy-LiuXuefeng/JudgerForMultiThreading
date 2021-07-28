@@ -2,19 +2,21 @@
 using System.Collections.Concurrent;
 using System.Threading;
 
+using Answer = DiningPhilosophers.Answer2;
+
 namespace JudgerForDiningPhilosophers
 {
 	class PhilosopherDriver
 	{
 		private Random rand = new Random();
 		private readonly int idx;
-		public PhilosopherDriver(int idx, DiningPhilosophers.Answer1.DiningPhilosophers ans)
+		public PhilosopherDriver(int idx, Answer::DiningPhilosophers ans)
 		{
 			this.idx = idx;
 			this.ans = ans;
 		}
 
-		private DiningPhilosophers.Answer1.DiningPhilosophers ans;
+		private Answer::DiningPhilosophers ans;
 
 		public void Run(uint n, BlockingCollection<Info> result, Mode mode)
 		{

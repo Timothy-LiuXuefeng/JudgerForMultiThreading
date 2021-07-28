@@ -3,7 +3,7 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Threading;
 
-using Answer = DiningPhilosophers.Answer1;
+using Answer = DiningPhilosophers.Answer2;
 
 namespace JudgerForDiningPhilosophers
 {
