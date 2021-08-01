@@ -6,8 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CSharpSemaphore\CSharpSemaphore.csproj" />
     <ProjectReference Include="..\DebugTool\DebugTool.csproj" />
-    <ProjectReference Include="..\DiningPhilosophers\DiningPhilosophers.csproj" />
   </ItemGroup>
 
 </Project>

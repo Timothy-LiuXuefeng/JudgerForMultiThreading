@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace JudgerForDiningPhilosophers
+namespace DebugTool
 {
-	static class Debugger
+	public static class Debugger
 	{
 		public static void Output(string msg)
 		{

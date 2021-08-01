@@ -4,7 +4,10 @@ This project is written for the summer institute of the students' association fo
 
 + DiningPhilosophers: The key to the dining philosophers problem  
 + JudgerForDiningPhilosophers: To Judge the dining philosophers problem  
-+ ... (not finished)
++ CSharpSemaphore: The key to the semaphore problem in C#  
++ CppSemaphore: The key to the semaphore problem in C++  
++ CSemaphore: The key to the semaphore problem in C  
++ CSharpSemaphoreJudger: To judge the semaphore problem in C#  
 
 ---
 
@@ -12,5 +15,8 @@ This project is written for the summer institute of the students' association fo
 
 + DiningPhilosophers：哲学家晚餐问题答案  
 + JudgerForDiningPhilosophers：哲学家晚餐问题评判程序  
-+ ……（未完成）  
++ CSharpSemaphore：C# 语言信号量问题答案  
++ CppSemaphore: C++ 语言信号量问题答案  
++ CSemaphore: C 语言信号量问题答案  
++ CSharpSemaphoreJudger: 信号量问题 C# 语言评判程序  
 
