@@ -22,9 +22,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSemaphore", "CSemaphore", 
 		CSemaphore\MySemaphore.h = CSemaphore\MySemaphore.h
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpSemaphoreJudger", "CSharpSemaphoreJudger\CSharpSemaphoreJudger.csproj", "{8A29A868-352D-4A4E-84C1-1C7289DDD585}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpSemaphoreJudger", "CSharpSemaphoreJudger\CSharpSemaphoreJudger.csproj", "{8A29A868-352D-4A4E-84C1-1C7289DDD585}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebugTool", "DebugTool\DebugTool.csproj", "{3A9895D9-4616-4697-B7B6-5E3E0AE83995}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DebugTool", "DebugTool\DebugTool.csproj", "{3A9895D9-4616-4697-B7B6-5E3E0AE83995}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -29,8 +29,6 @@ namespace JudgerForDiningPhilosophers
 				new Tester(idxTransformers[1])
 			};
 
-			var runner = new Runner();
-
 			uint maxTime = 35;
 
 			try
@@ -43,7 +41,7 @@ namespace JudgerForDiningPhilosophers
 					for (int modeCnt = 0; modeCnt < 2; ++modeCnt)
 					{
 						Mode mode = modeCnt == 0 ? Mode.Delay : Mode.NoDelay;
-						var result = runner.Run(n, mode);
+						var result = new Runner().Run(n, mode);
 
 						//foreach (var info in result)
 						//{

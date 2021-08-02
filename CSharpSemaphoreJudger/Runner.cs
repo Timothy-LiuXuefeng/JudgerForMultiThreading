@@ -3,6 +3,7 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Threading;
 
+// using Answer = StudentAnswer;
 using Answer = CSharpSemaphore;
 
 namespace CSharpSemaphoreJudger
