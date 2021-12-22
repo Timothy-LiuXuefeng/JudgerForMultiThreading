@@ -11,7 +11,6 @@
 #include <cstdint>
 #include <mutex>
 #include <condition_variable>
-#include <atomic>
 #include <stdexcept>
 
 class MySemaphore
@@ -48,7 +47,7 @@ public:
 	}
 
 private:
-	::std::atomic<::std::int32_t> cnt;
+	::std::int32_t cnt;
 	::std::int32_t max;
 	::std::condition_variable cv;
 	mutable ::std::mutex mtx;
