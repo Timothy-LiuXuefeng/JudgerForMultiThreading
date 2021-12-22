@@ -5,7 +5,7 @@ namespace CSharpSemaphore
 {
 	public class MySemaphore
 	{
-		private volatile int cnt;
+		private int cnt;
 		private int max;
 		private object mtx = new object();
 		
